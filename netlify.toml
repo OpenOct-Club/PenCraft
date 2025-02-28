@@ -3,6 +3,10 @@
   command = "npm run build"
 
 [[redirects]]
-  from = "/*"
+  from = "/"
   to = "/index.html"
+  status = 200
+[[redirects]]
+  from = "/blog"
+  to = "./src/Html/blog.html"
   status = 200
