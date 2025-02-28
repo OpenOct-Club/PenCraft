@@ -1,4 +1,13 @@
+[build]
+  command = ""  # No build command needed
+  publish = "."  # Serve files from the root directory
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+[[headers]]
+  for = "/src/*"
+  [headers.values]
+  Access-Control-Allow-Origin = "*"
