@@ -1,12 +1,7 @@
 [build]
-  publish = "."
-  command = "npm run build"
+  publish = "public" # Change this to your build output folder if different
 
 [[redirects]]
-  from = "/"
-  to = "/index.html"
-  status = 200
-[[redirects]]
-  from = "/blog"
-  to = "./src/Html/blog.html"
+  from = "/*"
+  to = "/:splat"
   status = 200
