@@ -1,6 +1,5 @@
 [build]
-  publish = "."
-  publish = "src" # Change this to your build output folder if different
+  publish = "."  # Kept this as root since all your files are here
 
 [[redirects]]
   from = "/*"
