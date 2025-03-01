@@ -1,5 +1,5 @@
 [build]
-  publish = "public" # Change this to your build output folder if different
+  publish = "src" # Change this to your build output folder if different
 
 [[redirects]]
   from = "/*"
